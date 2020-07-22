@@ -29,19 +29,23 @@
 		</dependency>
 		
 		<!-- 核心包 -->
-	    <!-- <dependency>  
+	    <dependency>
 		     <groupId>com.system</groupId>
 		     <artifactId>system-core-college</artifactId>
 		     <version>RB-1.0</version>
 		     <type>jar</type>
-   	    </dependency> -->
-   	    <dependency>  
+   	    </dependency>
+   	    <!--<dependency>
 		     <groupId>com.system</groupId>
 		     <artifactId>system-core</artifactId>
 		     <version>RB-2.0</version>
 		     <type>jar</type>  
-   	    </dependency>
-   	    
+   	    </dependency>-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.11</version>
+		</dependency>
    	   <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -49,7 +53,12 @@
 	    <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
@@ -62,7 +71,13 @@
 		    <artifactId>commons-lang3</artifactId>
 		    <version>3.2</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>com.system</groupId>
+			<artifactId>system-core-college</artifactId>
+			<version>RB-1.0</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 	<!-- maven核心包地址 -->
 	<!-- <repositories>
