@@ -8,7 +8,7 @@
     </parent>
 	<groupId>com.system</groupId>
 	<artifactId>onepoint_college</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>RB-2.0</version>
 	<dependencies>
 	    <!-- https://mvnrepository.com/artifact/net.sf.barcode4j/barcode4j -->
